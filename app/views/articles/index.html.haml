@@ -1,0 +1,7 @@
+%h1.font-bold.uppercase.p-4.text-xl
+  List Articles
+- @articles.each do |article|
+  %div.text-red-700.font-bold.mb-1.ml-4
+    = article.title
+  %div.text-gray-700.mb-4.ml-4
+    = article.body
